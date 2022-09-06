@@ -6,10 +6,37 @@ public class Demo {
 
   public static void main(String[] args) {
 
-    for (;false;) {
-     // infinite loop 
-      System.out.println("1");
+    // for (/* initialize stuff here */; /* condition */; /* increment or decrement */) {
+    //  // infinite loop 
+    //   System.out.println("1");
+    // }
+
+    int[] nums = {1,2,3,4,5};
+    int i = 0;
+    // for each - "use for?"
+    for (int string : nums) {
+      System.out.println(string);
+      if (i == 2) {
+        break;
+      }
+      i++;
     }
+
+    // while 
+    // int i = 0;
+    // while (/* provide condition here */ i <= 3) {
+    //  System.out.println(i); 
+    //   // update condition here
+    //   i++;
+    // }
+
+    // boolean condition = false;
+    // do-while
+    // do {
+    //  // will execute at least once 
+    //   System.out.println("Hi");
+    // } while (condition);
+
     
     // int condition = Integer.parseInt(args[0]);
     // if(condition == CAR_RACING) {
