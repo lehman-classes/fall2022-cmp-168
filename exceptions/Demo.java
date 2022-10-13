@@ -1,6 +1,5 @@
 public class Demo {
 
-
   public static boolean isAnInt(String input) throws NotANumberException, NumberTooLowException {
     for (char c : input.toCharArray()) {
      // System.out.println(c); 
