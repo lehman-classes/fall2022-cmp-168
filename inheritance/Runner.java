@@ -13,8 +13,5 @@ public class Runner {
 
     Charger.charge(iPhoneV2);
     Charger.charge(iPhoneV3);
-
-
-
   }
 }
