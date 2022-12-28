@@ -7,7 +7,7 @@ public class BaseToExponentTest {
     public void exponentZeroEqualsOne() {
         BaseToExponent baseToExponent = new BaseToExponent();
         int result = baseToExponent.calculate(3,0);
-        assertEquals(1, result);
+        assertEquals(0, result);
     }
 
     @Test
